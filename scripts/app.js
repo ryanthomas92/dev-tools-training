@@ -2,6 +2,7 @@ console.log("Sanity Check: JS is working!");
 
 $(document).ready(function(){
 	console.log("The DOM is ready!");
+});
 
 	// squash the bugs isn't showing up
 	function addSubHeader() {
@@ -28,6 +29,6 @@ $(document).ready(function(){
 			}
 			$('#num-es').text(count);
 		}
-	}));
+	});
 
 };
